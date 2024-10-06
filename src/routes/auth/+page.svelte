@@ -14,7 +14,7 @@
         <div class="text-center">
 
             <h1 class="text-3xl">Crează un cont</h1>
-            <p class="text-sm text-muted-foreground">Introdu adresa de email pentru a crea un contdawd</p>
+            <p class="text-sm text-muted-foreground">Introdu adresa de email pentru a crea un cont</p>
         </div>
 
         <div class="flex flex-col gap-2">
@@ -31,11 +31,38 @@
         </div>
 
         <div class="flex flex-col gap-2">
-
-            <Button variant="outline">Google</Button>
-            <Button variant="outline">Github</Button>
+            
+            <Button variant="outline" class="gap-4">
+                <img src="/assets/icons/google.webp" alt="google logo" class="h-full">
+                <span>Google</span>
+            </Button>
+            <Button variant="outline" class="gap-4">
+                <img src="/assets/icons/github.webp" alt="google logo" class="h-full dark:invert">
+                <span>Github</span>
+            </Button>
         </div>
 
-        <p class="text-sm text-center">By clicking continue, you agree to our Terms of Service and Privacy Policy.</p>
+        <!-- TODO: to create terms of service  -->
+        <!-- TODO: to create privacy policy  -->
+        <p class="text-sm text-center">
+            <span>
+
+                Prin crearea unui cont, sunteți de acord cu 
+            </span>
+            <a href="/auth" class="text-primary">
+                Termenii Serviciului
+            </a>
+            <span>
+
+                și 
+            </span>
+            <a href="/auth" class="text-primary">
+                Politica de Confidențialitate
+            </a>
+            <span>
+
+                .
+            </span>
+        </p>
     </main>
 </div>
