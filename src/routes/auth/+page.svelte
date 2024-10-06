@@ -17,7 +17,7 @@
 
 		<div class="flex flex-col gap-2">
 			<div class="relative">
-				<Input placeholder="email@example.com" class="pl-10" />
+				<Input type="email" name="email" placeholder="email@example.com" class="pl-10" />
 				<Mail class="absolute left-2 top-1/2 -translate-y-1/2 text-primary" />
 			</div>
 			<Button class="text-md font-extrabold">Logare cu email</Button>
