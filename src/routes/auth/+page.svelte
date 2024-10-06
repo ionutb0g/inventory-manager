@@ -20,7 +20,7 @@
 				<Input placeholder="email@example.com" class="pl-10" />
 				<Mail class="absolute left-2 top-1/2 -translate-y-1/2 text-primary" />
 			</div>
-			<Button>Logare cu email</Button>
+			<Button class="text-md font-extrabold">Logare cu email</Button>
 		</div>
 
 		<div class="relative flex items-center justify-center">
@@ -29,11 +29,11 @@
 		</div>
 
 		<div class="flex flex-col gap-2">
-			<Button variant="outline" class="gap-4">
+			<Button variant="outline" class="text-md gap-4 font-extrabold">
 				<img src="/assets/icons/google.webp" alt="google logo" class="h-full" />
 				<span>Google</span>
 			</Button>
-			<Button variant="outline" class="gap-4">
+			<Button variant="outline" class="text-md gap-4 font-extrabold">
 				<img src="/assets/icons/github.webp" alt="google logo" class="h-full dark:invert" />
 				<span>Github</span>
 			</Button>
